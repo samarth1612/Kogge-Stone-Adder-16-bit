@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="kogge_stone_16bit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/kogge_stone_16bit/Ai" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Ai[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Ai[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/Bi" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Bi[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Bi[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/S" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S[16:0]</obj_property>
+      <obj_property name="ObjectShortName">S[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/Cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/C" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C[15:0]</obj_property>
+      <obj_property name="ObjectShortName">C[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/P1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">P1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/G1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">G1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">G1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/P2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P2[15:1]</obj_property>
+      <obj_property name="ObjectShortName">P2[15:1]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/G2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">G2[15:1]</obj_property>
+      <obj_property name="ObjectShortName">G2[15:1]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/P3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P3[15:3]</obj_property>
+      <obj_property name="ObjectShortName">P3[15:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/G3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">G3[15:3]</obj_property>
+      <obj_property name="ObjectShortName">G3[15:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/P4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P4[15:7]</obj_property>
+      <obj_property name="ObjectShortName">P4[15:7]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/G4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">G4[15:7]</obj_property>
+      <obj_property name="ObjectShortName">G4[15:7]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/P5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P5[15:15]</obj_property>
+      <obj_property name="ObjectShortName">P5[15:15]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/kogge_stone_16bit/G5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">G5[15:15]</obj_property>
+      <obj_property name="ObjectShortName">G5[15:15]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,351 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: kogge_stone_16bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "kogge_stone_16bit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "kogge_stone_16bit"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-2-ffg1157
+
+---- Source Options
+Top Module Name                    : kogge_stone_16bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/strange/Desktop/vlsi/kogge_stone_16bit/yellow_circle.v" into library work
+Parsing module <GP_circle>.
+Analyzing Verilog file "/home/strange/Desktop/vlsi/kogge_stone_16bit/Si_triangle.v" into library work
+Parsing module <Si_triangle>.
+Analyzing Verilog file "/home/strange/Desktop/vlsi/kogge_stone_16bit/red_square.v" into library work
+Parsing module <GP_square>.
+Analyzing Verilog file "/home/strange/Desktop/vlsi/kogge_stone_16bit/green_circle.v" into library work
+Parsing module <Ci_circle>.
+Analyzing Verilog file "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" into library work
+Parsing module <kogge_stone_16bit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <kogge_stone_16bit>.
+
+Elaborating module <GP_square>.
+
+Elaborating module <Ci_circle>.
+
+Elaborating module <GP_circle>.
+WARNING:HDLCompiler:1127 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" Line 46: Assignment to P5 ignored, since the identifier is never used
+
+Elaborating module <Si_triangle>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <kogge_stone_16bit>.
+    Related source file is "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v".
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<8>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<9>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<10>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<11>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<12>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<13>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 42: Output port <P> of the instance <gp_c2<14>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/strange/Desktop/vlsi/kogge_stone_16bit/kogge_stone_16bit.v" line 46: Output port <P> of the instance <gp_c3> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <kogge_stone_16bit> synthesized.
+
+Synthesizing Unit <GP_square>.
+    Related source file is "/home/strange/Desktop/vlsi/kogge_stone_16bit/red_square.v".
+    Summary:
+Unit <GP_square> synthesized.
+
+Synthesizing Unit <Ci_circle>.
+    Related source file is "/home/strange/Desktop/vlsi/kogge_stone_16bit/green_circle.v".
+    Summary:
+	no macro.
+Unit <Ci_circle> synthesized.
+
+Synthesizing Unit <GP_circle>.
+    Related source file is "/home/strange/Desktop/vlsi/kogge_stone_16bit/yellow_circle.v".
+    Summary:
+	no macro.
+Unit <GP_circle> synthesized.
+
+Synthesizing Unit <Si_triangle>.
+    Related source file is "/home/strange/Desktop/vlsi/kogge_stone_16bit/Si_triangle.v".
+    Summary:
+Unit <Si_triangle> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <kogge_stone_16bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block kogge_stone_16bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : kogge_stone_16bit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 52
+#      LUT2                        : 5
+#      LUT3                        : 9
+#      LUT4                        : 15
+#      LUT5                        : 8
+#      LUT6                        : 15
+# IO Buffers                       : 49
+#      IBUF                        : 32
+#      OBUF                        : 17
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   52  out of  204000     0%  
+    Number used as Logic:                52  out of  204000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     52
+   Number with an unused Flip Flop:      52  out of     52   100%  
+   Number with an unused LUT:             0  out of     52     0%  
+   Number of fully used LUT-FF pairs:     0  out of     52     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          49
+ Number of bonded IOBs:                  49  out of    600     8%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 3.813ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 322 / 17
+-------------------------------------------------------------------------
+Delay:               3.813ns (Levels of Logic = 9)
+  Source:            Ai<1> (PAD)
+  Destination:       S<16> (PAD)
+
+  Data Path: Ai<1> to S<16>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.000   0.545  Ai_1_IBUF (Ai_1_IBUF)
+     LUT4:I0->O            1   0.043   0.350  gp_c1<3>/G_SW0 (N2)
+     LUT5:I4->O            2   0.043   0.355  gp_c1<3>/G (G3<3>)
+     LUT3:I2->O            1   0.043   0.405  gp_c2<7>/G_SW0 (N8)
+     LUT5:I3->O            2   0.043   0.500  gp_c2<7>/G (G4<7>)
+     LUT6:I3->O            1   0.043   0.495  gp_c3/G3 (gp_c3/G2)
+     LUT5:I2->O            1   0.043   0.522  gp_c3/G5_SW0 (N14)
+     LUT6:I2->O            1   0.043   0.339  gp_c3/G5 (G5)
+     OBUF:I->O                 0.000          S_16_OBUF (S<16>)
+    ----------------------------------------
+    Total                      3.813ns (0.301ns logic, 3.512ns route)
+                                       (7.9% logic, 92.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.87 secs
+ 
+--> 
+
+
+Total memory usage is 483488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+
